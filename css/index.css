@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main_block {
+    width: 100%;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+}
+
+.content_block {
+    position: absolute;
+    margin: auto;
+    right: 0;
+    left: 0;
+    width: 1440px;
+}
+
+.blue_block {
+    width: 100%;
+    position: relative;
+    background-color: #CBECFF;
+    height: 613px;
+}
+
+.white_block {
+    position: relative;
+    background-color: #FFFFFF;
+    height: 1149px;
+}
+
+.languages {
+    position: absolute;
+    display: flex;
+    gap: 15px;
+    top: 24px;
+    right: 15.5%;
+}
+
+.language {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    align-items: center;
+}
+
+.ru {
+    border-radius: 50%;
+    background: #F5F5F5;
+    color: #0962E8;
+}
+
+.en {
+    color: #29374E;
+}
+
+.hand_phone {
+    width: 43%;
+    height: 555px;
+    position: absolute;
+    top: 59px;
+    right: 11%;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.main_text {
+    position: absolute;
+    top: 122px;
+    left: 14.3%;
+}
+
+.main_text_lg {
+    display: flex;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 64px;
+    margin-bottom: 14px;
+}
+
+.main_text_sm {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.fin {
+    color: #29374E;
+}
+
+.kit {
+    width: 122px;
+    height: 80px;
+    color: #0962E8;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.demo_btn {
+    width: 199px;
+    height: 52px;
+    padding: 14px 19px 15px 20px;
+    background-color: #0962E8;
+    border-radius: 8px;
+    border: none;
+}
+
+.demo_text {
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.card_wrapper {
+    position: relative;
+    top: 530px;
+}
+
+.card_block {
+    max-width: 1025px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    z-index: 1;
+}
+
+.card {
+    width: 201px;
+    height: 66px;
+    position: relative;
+    padding: 22px 20px 30px 20px;
+    background-color: #FFFFFF;
+    box-shadow: 6px 4px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+}
+
+.card_text {
+    width: 201px;
+    height: 66px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #29374E;
+}
+
+.card_icon {
+    width: 39px;
+    height: 39px;
+    position: absolute;
+    left: 184px;
+    top: 15px;
+    background-color: #EFF9FF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second_header_text {
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 49px;
+    color: #29374E;
+}
+
+.key_products_text {
+    width: 753px;
+    height: 98px;
+    position: absolute;
+    top: 200px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.blue_mark {
+    color: #0962E8;
+}
+
+.lg_card_block {
+    position: absolute;
+    top: 342px;
+}
+
+.big_card {
+    width: 449px;
+    height: 291px;
+    padding: 37px 33px 0 20px;
+    position: relative;
+    background-color: #E9F6FF;
+    border-radius: 30px;
+}
+
+.card_main_text {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 12px;
+}
+
+.card_sub_text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.card_img {
+    width: 218px;
+    height: 291px;
+    position: absolute;
+    top: 13px;
+    right: 33px;
+}
+
+.bank_value_text {
+    width: 500px;
+    height: 268px;
+    position: absolute;
+    margin: auto;
+    top: 792px;
+    left: 205px;
+    display: flex;
+}
+
+.mobile_app_text {
+    margin-top: 21px;
+    margin-bottom: 37px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1E2837;
+}
+
+.icon_block_wrapper {
+    position: relative;
+}
+
+.icons_block {
+    width: 500px;
+    display: flex;
+    position: absolute;
+    top: 10px;
+    gap: 19px;
+    flex-wrap: wrap;
+    margin-left: 70px;
+}
+
+.icon_block {
+    width: 220px;
+    height: 140px;
+    position: relative;
+}
+
+.icon_block_content {
+    position: absolute;
+}
+
+.bank_value_icon {
+    width: 39px;
+    height: 39px;
+    background-color: #EFF9FF;
+    border-radius: 50%;
+}
+
+.icon {
+    font-weight: 600;
+    font-size: 20px;
+    color: #0962E8;
+}
+
+.lg_icon {
+    font-weight: 600;
+    position: absolute;
+    top: -5px;
+    left: -10px;
+    font-size: 40px;
+    color: #0962E8;
+}
+
+@media (max-width: 375px) {
+    .blue_block {
+        background-color: gray;
+    }
+}
