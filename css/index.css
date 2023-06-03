@@ -10,24 +10,20 @@
 }
 
 .content_block {
-    position: absolute;
-    margin: auto;
-    right: 0;
-    left: 0;
-    width: 1440px;
+    max-width: 1440px;
 }
 
 .blue_block {
     width: 100%;
+    height: 678px;
     position: relative;
     background-color: #CBECFF;
-    height: 613px;
 }
 
 .white_block {
     position: relative;
-    background-color: #FFFFFF;
     height: 1149px;
+    background-color: #FFFFFF;
 }
 
 .languages {
@@ -69,13 +65,21 @@
     z-index: 0;
 }
 
-.main_text {
+.hand_phone_img {
+    width: 100%;
     position: absolute;
-    top: 122px;
+}
+
+.main_text {
+    width: 26.6%;
+    position: absolute;
     left: 14.3%;
+    top: 122px;
+    overflow: hidden;
 }
 
 .main_text_lg {
+    width: 100%;
     display: flex;
     gap: 10px;
     font-weight: 700;
@@ -87,7 +91,7 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 38px;
 }
 
 .fin {
@@ -95,7 +99,7 @@
 }
 
 .kit {
-    width: 122px;
+    width: 31.7%;
     height: 80px;
     color: #0962E8;
     background-color: #FFFFFF;
@@ -104,9 +108,8 @@
 }
 
 .demo_btn {
-    width: 199px;
+    width: 41.8%;
     height: 52px;
-    padding: 14px 19px 15px 20px;
     background-color: #0962E8;
     border-radius: 8px;
     border: none;
@@ -117,24 +120,18 @@
     color: #FFFFFF;
 }
 
-.card_wrapper {
-    position: relative;
-    top: 530px;
-}
-
 .card_block {
-    max-width: 1025px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
+    width: 100%;
+    position: relative;
     display: flex;
+    justify-content: center;
+    top: 595px;
     gap: 20px;
     z-index: 1;
 }
 
 .card {
-    width: 201px;
+    width: 14%;
     height: 66px;
     position: relative;
     padding: 22px 20px 30px 20px;
@@ -144,7 +141,6 @@
 }
 
 .card_text {
-    width: 201px;
     height: 66px;
     font-weight: 500;
     font-size: 16px;
@@ -156,8 +152,8 @@
     width: 39px;
     height: 39px;
     position: absolute;
-    left: 184px;
-    top: 15px;
+    left: 76.3%;
+    top: 12.7%;
     background-color: #EFF9FF;
     border-radius: 50%;
     display: flex;
@@ -173,13 +169,12 @@
 }
 
 .key_products_text {
-    width: 753px;
+    width: 100%;
     height: 98px;
     position: absolute;
     top: 200px;
     left: 0;
     right: 0;
-    margin: auto;
     text-align: center;
 }
 
@@ -188,17 +183,26 @@
 }
 
 .lg_card_block {
+    width: 100%;
     position: absolute;
     top: 342px;
 }
 
+.grid_elem {
+    width: 34.8%;
+}
+
 .big_card {
-    width: 449px;
-    height: 291px;
-    padding: 37px 33px 0 20px;
+    height: 328px;
     position: relative;
     background-color: #E9F6FF;
     border-radius: 30px;
+}
+
+.big_card_content {
+    height: 100%;
+    position: relative;
+    margin: 8% 6.1% 0 9.1%;
 }
 
 .card_main_text {
@@ -209,6 +213,16 @@
     margin-bottom: 12px;
 }
 
+.big_grid {
+    width: 100%;
+    gap: 20px;
+    top: 336px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .card_sub_text {
     font-weight: 400;
     font-size: 14px;
@@ -216,22 +230,35 @@
     color: #000000;
 }
 
-.card_img {
-    width: 218px;
-    height: 291px;
+.img_box {
+    width: 51.3%;
+    height: 88.7%;
     position: absolute;
-    top: 13px;
-    right: 33px;
+    top: 2.1%;
+    right: 0;
+    background-size: cover;
+}
+
+.img_box_strategies {
+    background-image: url("../images/strategies.svg");
+}
+
+.img_box_circle {
+    background-image: url("../images/circle.svg");
+}
+
+.card_img {
+    width: 100%;
+    object-fit: cover;
 }
 
 .bank_value_text {
-    width: 500px;
+    width: 71.1%;
     height: 268px;
     position: absolute;
-    margin: auto;
     top: 792px;
-    left: 205px;
     display: flex;
+    gap: 70px;
 }
 
 .mobile_app_text {
@@ -243,24 +270,15 @@
     color: #1E2837;
 }
 
-.icon_block_wrapper {
-    position: relative;
-}
-
 .icons_block {
-    width: 500px;
     display: flex;
-    position: absolute;
-    top: 10px;
     gap: 19px;
     flex-wrap: wrap;
-    margin-left: 70px;
 }
 
 .icon_block {
-    width: 220px;
+    width: 46%;
     height: 140px;
-    position: relative;
 }
 
 .icon_block_content {
@@ -289,8 +307,69 @@
     color: #0962E8;
 }
 
-@media (max-width: 375px) {
-    .blue_block {
-        background-color: gray;
+.mt_114 {
+    margin-top: 114px;
+}
+
+@media (min-width: 1440px) {
+    .main_block {
+        display: flex;
+        justify-content: center;
+    }
+
+    .content_block {
+        width: 1440px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .language, .mobile_app_text, .card_sub_text {
+        font-size: 1vw;
+    }
+
+    .main_text_lg {
+        font-size: 4.4vw;
+    }
+
+    .main_text_sm {
+        font-size: 1.5vw;
+    }
+
+    .demo_text {
+        font-size: 1.25vw;
+    }
+
+    .lg_icon {
+        font-size: 2.8vw;
+    }
+
+    .card_main_text, .icon {
+        font-size: 1.4vw;
+    }
+
+    .card_text {
+        font-size: 1.1vw;
+    }
+
+    .second_header_text {
+        font-size: 2.6vw;
+    }
+
+    .card_icon {
+        width: 16.7%;
+        height: 2.8vw;
+    }
+
+    .big_card {
+        height: 22.8vw;
+    }
+
+    .bank_value_icon {
+        width: 21.1%;
+        height: 2.8vw;
+    }
+
+    .kit {
+        height: 5.5vw;
     }
 }
